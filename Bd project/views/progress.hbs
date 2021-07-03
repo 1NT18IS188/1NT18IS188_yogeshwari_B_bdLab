@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    
+  </head>
+  <style>
+* {box-sizing: border-box}
+body { background-color: mistyrose;
+font-family: Arial, Helvetica, sans-serif;}
+
+.navbar {
+  width: 100%;
+  background-color:blue;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 33%; /* Four links of equal widths */
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: green;
+}
+
+.navbar a.active {
+  background-color: ;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+</style>
+<style>
+body{
+ background-color: pink;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  opacity: "3";
+}
+</style>
+<body>
+  <!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    
+  </head>
+  <style>
+* {box-sizing: border-box}
+<style>
+* {box-sizing: border-box}
+body {
+  
+  font-family: Arial, Helvetica, sans-serif;}
+
+.navbar {
+  width: 100%;
+  
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: black;
+  text-decoration: none;
+  font-size: 21px;
+  font-weight: 700;
+  width: 33%; /* Four links of equal widths */
+  text-align: center;
+}
+th{
+  border: 2px solid black;
+}
+.navbar a:hover {
+  background-color:lightgray;
+}
+
+.navbar a.active {
+  background-color: ;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+</style>
+<style>
+body{
+  background-image: url("https://image.similarpng.com/very-thumbnail/2021/01/Certificate-achievement-template--design-on-transparent-background-PNG.png");
+   
+  background-color: lightslategray;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  opacity: "3";
+}
+</style>
+<body>
+  <center> <font size="9"  style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;" ><i><b>  Certificate Catalouge System </b></i><br></font>
+<font size="5"><font color="red">
+<b>NMIT  </b>
+</font></font></center>
+<div class="navbar">
+  <a class="" href="http://localhost:3000/">Home</a>  
+  <a href="/progress">Progress</a> 
+ <a href="/contact">Contact us</a>
+</div>
+  <center>
+ <form method="POST" action="/prg1">
+  <h4 style="color: red;"> For view of faculty certificates click the button below </h4>
+  <input type="submit" value="Redirect" name="fag">
+</form >
+              <div class="container">
+                  <div class="row">
+                              
+                 <table style=" width:200px "  ></table>
+                   
+                   <tr> 
+                     
+                        {{#each records}}<td>
+                 
+                   <img src="./Uploads/images/{{ this.img }}" alt="image" style="width:15%;margin:20px auto;">
+                 </td>
+                 {{/each}}
+                 </tr>
+                 </table>
+                    </div></div>
+
+    <form method="POST" action="/prg2">
+  <h4 style="font-weight: 8px; color: red"> For view of student certificates click the button below </h4>
+  <input type="submit" value="Redirect" name="fag">
+</form >
+              <div class="container">
+                  <div class="row">
+                              
+                 <table style=" width:200px; background-color:cornflowerblue"  ></table>
+                   
+                   <tr> 
+                     
+                        {{#each records1}}<td>
+                 
+                   <img src="./Uploads/images/{{ this.img }}" alt="image" style="width:15%;margin:5px auto;">
+                 </td>
+                 {{/each}}
+                 </tr>
+                 </table>
+                    </div></div>
+<form method="POST" action="/progress">
+  <h4 style="color: red;"> For statistical veiw  of faculty certificates click here</h4>
+  <input type="submit" value="Redirect" name="fag">
+</form>
+
+              <div class="container">
+                  <div class="row">
+                      <table style="border: 3px solid black; width:100px;  ">
+                        <tr><th>Year of issual</th><th>certificate_count</th></tr>
+                        
+                 <div class="col-md-4">
+                   
+                    {{#each records}}
+                   <tr><td>
+                     
+                    <h5> {{ this.Year_of_issual}}</h5></td>
+                    <td>{{ this.faculty_count}}</td>
+                     </tr>
+
+                   {{/each}}
+                 </div>
+                
+                 </table>
+
+                    </div></div>
+                    <form method="POST" action="/progress1">
+                    </td></tr>
+                    </table>
+
+  <h4 style="color: red;"> For statistical veiw of student certificates click here</h4>
+  <input type="submit" value="Redirect" name="fag">
+</form>
+
+              <div class="container">
+                  <div class="row">
+                      <table style="border: 3px solid black; width:100px ">
+                        <tr><th>Year of issual</th><th>certificate_count</th></tr>
+                        {{#each records1}}
+                 <div class="col-md-4">
+                   
+
+                   <tr><td>
+                    <h5> {{ this.Year_of_issual}}</h5></td>
+                    <td>{{ this.Student_count}}</td></tr>
+
+                   
+                 </div>
+                 {{/each}}
+                 </table>
+
+                    </div></div>
+                  
+                    </center>
+

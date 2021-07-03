@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+
+<html>
+<head>
+  <title>admin   faculty mode page</title>
+  <head>
+  <link rel="stylesheet" type="text/css" href="xyz.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box}
+body {
+  
+  font-family: Arial, Helvetica, sans-serif;}
+
+.navbar {
+  width: 100%;
+  
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: black;
+  text-decoration: none;
+  font-size: 21px;
+  font-weight: 700;
+  width: 33%; /* Four links of equal widths */
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color:lightgray;
+}
+
+.navbar a.active {
+  background-color: ;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+</style>
+<style>
+body{
+  background-image: url("https://image.similarpng.com/very-thumbnail/2021/01/Certificate-achievement-template--design-on-transparent-background-PNG.png");
+   
+  background-color: lightslategray;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  opacity: "3";
+}
+</style>
+<body>
+  <center> <font size="9"  face="times roman" ><i><b>  Certificate Catalouge System </b></i><br></font>
+<font size="5"><font color="red">
+<b>NMIT  </b>
+</font></font></center>
+<div class="navbar">
+  <a class="" href="http://localhost:3000/">Home</a>  
+  <a href="/progress">Progress</a> 
+ <a href="/contact">Contact us</a>
+</div>
+
+
+<center> <h4 >Enter the details here</h4></center>
+<center >
+
+<form   action="/mine"  method="POST" enctype="multipart/form-data" ><table  style="border: 3px solid black;  background-color:mediumturquoise">
+<tr>
+
+<td>
+Certificate No:
+</td>
+<td>
+<input type="text"  name="cno"  ></td></tr>
+<tr>
+
+<td>
+Event name:
+</td>
+<td>
+<input type="text"  name="ename"  id="adid"  ></td></tr>
+<tr><td>
+ Issuer of certificate</td><td><input type="text" name="issuer" id="password"   ></td></tr>
+<tr>
+<td>
+
+</td>
+</tr>
+<tr>
+
+<td>
+Ranking of Issuer:
+</td>
+<td>
+<input type="text"  name="rissue"  id="adid" ></td></tr>
+<tr>
+
+<td>
+Year of Issual
+</td>
+<td>
+<input type="text"  name="yissue"  id="adid"  ></td></tr>
+<tr><td>
+                <label for="image">Upload Image</label></td>
+             <td>   <input type="file" id="image"
+                       name="image" value="" required>
+            </td>
+</tr>
+<tr>
+<td>
+<input   id="pop" type="submit" name="submit" value="submit" ></td></tr><tr><td><input type="reset"/></td></tr>
+
+</table>
+</form>
+
+</center>
+<br>
+<br>
+<center>
+  <h4> fill the from below to  update the details</h4>
+  <form   action="/mine1"  method="POST" enctype="multipart/form-data" ><table  style="border: 3px solid black;  background-color:mediumturquoise">
+<tr>
+
+<td>
+Certificate No:
+</td>
+<td>
+<input type="text"  name="cno1"  ></td></tr>
+<tr>
+
+<td>
+Event name:
+</td>
+<td>
+<input type="text"  name="ename1"  id="adid"  ></td></tr>
+<tr><td>
+ Issuer of certificate</td><td><input type="text" name="issuer1" id="password"   ></td></tr>
+<tr>
+<td>
+
+</td>
+</tr>
+<tr>
+
+<td>
+Ranking of Issuer:
+</td>
+<td>
+<input type="text"  name="rissue1"  id="adid" ></td></tr>
+<tr>
+
+<td>
+Year of Issual
+</td>
+<td>
+<input type="text"  name="yissue1"  id="adid"  ></td></tr>
+<tr><td>
+                <label for="image">Upload Image</label></td>
+             <td>   <input type="file" id="image"
+                       name="image1" value="" required>
+            </td>
+</tr>
+<tr>
+<td>
+<input   id="pop" type="submit" name="submit" value="submit" ></td></tr><tr><td><input type="reset"/></td></tr>
+
+</table>
+</form>
+</center>
+</body>
+</head>
