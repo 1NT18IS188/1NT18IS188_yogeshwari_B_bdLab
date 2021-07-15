@@ -1,0 +1,162 @@
+{
+  "a1" :{
+   "Name": "Akash",
+   "USN": "1NT18IS100",
+   "Subject1": 56,
+   "Subject2": 78,
+   "Subject3": 100,
+   "Pass_status": true
+ },
+  "a2" :{
+   "Name": "Amruth",
+   "USN": "1NT18IS101",
+   "Subject1": 60,
+   "Subject2": 86,
+   "Subject3": 78,
+   "Pass_status": true
+ },
+"a3" : {
+   "Name": "Balram",
+   "USN": "1NT18IS102",
+   "Subject1": 78,
+   "Subject2": 67,
+   "Subject3": 59,
+   "Pass_status": true
+ },
+ "a4" :{
+   "Name": "Balu",
+   "USN": "1NT18IS103",
+   "Subject1": 34,
+   "Subject2": 31,
+   "Subject3": 56,
+   "Pass": false
+ },
+ "a5":{
+   "Name": "Chandana",
+   "USN": "1NT18IS104",
+   "Subject1": 23,
+   "Subject2": 32,
+   "Subject3": 60,
+   "Pass": false
+ },
+ "a6":{
+   "Name": "Dikshitha",
+   "USN": "1NT18IS105",
+   "Subject1": 89,
+   "Subject2": 90,
+   "Subject3": 92,
+   "Pass": true
+ },
+ "a7":{
+   "Name": "Divya Shree",
+   "USN": "1NT18IS106",
+   "Subject1": 67,
+   "Subject2": 71,
+   "Subject3": 75,
+   "Pass": true
+ },
+ "a8":{
+   "Name": "Harshitha",
+   "USN": "1NT18IS107",
+   "Subject1": 98,
+   "Subject2": 92,
+   "Subject3": 97,
+   "Pass": true 
+ },
+ "a9":{
+   "Name": "Harsha",
+   "USN": "1NT18IS108",
+   "Subject1": 100,
+   "Subject2": 96,
+   "Subject3": 98,
+   "Pass": true
+ },
+"a10": {
+   "Name": "Jashmitha",
+   "USN": "1NT18IS109",
+   "Subject1": 45,
+   "Subject2": 50,
+   "Subject3": 55,
+   "Pass": true
+ },
+ "a11":{
+   "Name": "Jayram",
+   "USN": "1NT18IS110",
+   "Subject1": 14,
+   "Subject2": 20,
+   "Subject3": 9,
+   "Pass": false
+ },
+ "a12":{
+   "Name": "Kavya",
+   "USN": "1NT18IS111",
+   "Subject1": 56,
+   "Subject2": 60,
+   "Subject3": 66,
+   "Pass": true
+ },
+ "a13":{
+   "Name": "Kaushal",
+   "USN": "1NT18IS112",
+   "Subject1": 43,
+   "Subject2": 28,
+   "Subject3": 67,
+   "Pass": true
+ },
+ "a14":{
+   "Name": "Karthik",
+   "USN": "1NT18IS113",
+   "Subject1": 60,
+   "Subject2": 78,
+   "Subject3": 99,
+   "Pass": true
+ },
+ "a15":{
+   "Name": "Lavanya",
+   "USN": "1NT18IS114",
+   "Subject1": 70,
+   "Subject2": 75,
+   "Subject3": 85,
+   "Pass": true
+ },
+ "a16":{
+   "Name": "Manju",
+   "USN": "1NT18IS115",
+   "Subject1": 12,
+   "Subject2": 51,
+   "Subject3": 22,
+   "Pass": false
+ },
+ "a17":{
+   "Name": "Naveen",
+   "USN": "1NT18IS116",
+   "Subject1": 100,
+   "Subject2": 89,
+   "Subject3": 95,
+   "Pass": true
+ },
+ "a18":{
+   "Name": "Pranathi",
+   "USN": "1NT18IS117",
+   "Subject1": 95,
+   "Subject2": 92,
+   "Subject3": 91,
+   "Pass": true
+ },
+ "a19":{
+   "Name": "Sandhya",
+   "USN": "1NT18IS118",
+   "Subject1": 32,
+   "Subject2": 30,
+   "Subject3": 40,
+   "Pass": false
+ },
+ "a20":{
+   "Name": "Yashaswini",
+   "USN": "1NT18IS119",
+   "Subject1": 92,
+   "Subject2": 95,
+   "Subject3": 94,
+   "Pass": true
+ }
+}
